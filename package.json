@@ -1,0 +1,19 @@
+{
+  "name": "unicode-data",
+  "version": "1.0.0",
+  "description": "typescript code for featurizing unicode database",
+  "main": "dist/Index.js",
+  "repository": "https://github.com/CSSachse/unicode-data.git",
+  "author": "cssachse <christoph.sachse@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn install --frozen-lockfile && rm -r dist &; tsc",
+    "test": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/webpack": "^4.41.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.2",
+    "webpack": "^4.41.2"
+  }
+}
