@@ -1,3 +1,3 @@
-import * as UnicodeData from '../data/UnicodeData.txt';
+import * as UnicodeData from '../data/Blocks.txt';
 
-console.error(`${UnicodeData}`);
+console.error(UnicodeData.default);

@@ -1,1 +1,0 @@
-{"version":3,"file":"Index.js","sourceRoot":"","sources":["../src/Index.ts"],"names":[],"mappings":";;;;;;;;;;;YAEA,OAAO,CAAC,KAAK,CAAC,GAAG,WAAW,EAAE,CAAC,CAAC;QAAA,CAAC","sourcesContent":["import * as UnicodeData from '../data/UnicodeData.txt';\n\nconsole.error(`${UnicodeData}`);"]}

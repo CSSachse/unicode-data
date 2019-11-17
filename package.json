@@ -8,12 +8,16 @@
   "license": "MIT",
   "scripts": {
     "build": "yarn install --frozen-lockfile && rm -r dist &; tsc",
-    "test": "node dist/index.js"
+    "test": "node dist/index.js",
+    "packify": "webpack --mode=development"
   },
   "devDependencies": {
     "@types/webpack": "^4.41.0",
+    "raw-loader": "^3.1.0",
+    "ts-loader": "^6.2.1",
     "tslint": "^5.20.1",
     "typescript": "^3.7.2",
-    "webpack": "^4.41.2"
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
   }
 }
